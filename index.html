@@ -16,7 +16,7 @@
 	</body>
 </html>
 
--->
+
 
 <html>
 	<head>
@@ -36,4 +36,31 @@
 			  <a-sky color="blue"></a-sky>
 		</a-scene>
 	</body>
+</html>
+-->
+
+<html>
+  <head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+    
+  </head>
+  <body>
+    <a-scene twitch-vr-room>
+      <a-entity camera="active:true;userHeight:1.6" wasd-controls="" look-controls="" 
+                aframe-injected="" data-aframe-inspector="default-camera" position="" rotation="0 -90 0"></a-entity>
+      <a-box src="https://cdn.glitch.com/7f573bce-f142-453c-988f-f66a037d9e4d%2Fred-stage-curtain-14385478.jpg?1494704000294" 
+             position="18 0 -8" radius="1.25" scale="2 10 3" color="#EF2D5E"></a-box>
+      <a-box src="https://cdn.glitch.com/7f573bce-f142-453c-988f-f66a037d9e4d%2Fred-stage-curtain-14385478.jpg?1494704000294" 
+             position="18 0 8" radius="1.25" scale="2 10 3" color="#EF2D5E"></a-box>
+      <a-box src="https://cdn.glitch.com/7f573bce-f142-453c-988f-f66a037d9e4d%2Fred-stage-curtain-14385478.jpg?1494704000294" 
+             position="17.45 6 0" radius="1.25" scale="1 3 18" color="#EF2D5E"></a-box>
+      <a-video src = "https://cdn.glitch.com/7f573bce-f142-453c-988f-f66a037d9e4d%2FUncanny%20Valley%20Short%20Film.MKV?1494701460008" 
+               id="myVideo" width="16" height="9" position="18 0 0" rotation="0 -90 0"></a-video>
+      <a-sky src="https://cdn.glitch.com/7f573bce-f142-453c-988f-f66a037d9e4d%2Ftheater.jpg?1494702127878" radius="20" color="#ECECEC"></a-sky>
+    </a-scene>
+    
+  </body>
 </html>
